@@ -314,10 +314,15 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
 .icon-about:hover {
   cursor: default;
 }
 
+.description-project {
+  margin-bottom: 20px;
+  text-align: justify;
+}
 /* EXPERIENCE SECTION */
 
 #experience {
