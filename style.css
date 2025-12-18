@@ -314,6 +314,9 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.icon-about:hover {
+  cursor: default;
+}
 
 /* EXPERIENCE SECTION */
 
@@ -367,8 +370,17 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.project-img:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
 }
 
 .project-title {
@@ -381,6 +393,9 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.experience-sub-title-project-title {
+  padding: 25px;
+}
 /* CONTACT */
 
 #contact {
