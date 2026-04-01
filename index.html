@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -54,7 +54,10 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
             Contact Me
           </button>
         </div>
@@ -63,7 +66,11 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="window.open('https://www.linkedin.com/in/ariel-hern%C3%A1ndez-data-scientist/')"
+            onclick="
+              window.open(
+                'https://www.linkedin.com/in/ariel-hern%C3%A1ndez-data-scientist/',
+              )
+            "
           />
           <img
             src="./assets/github.png"
@@ -132,7 +139,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href = './#experience'"
       />
     </section>
     <section id="experience">
@@ -288,7 +295,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href = './#projects'"
       />
     </section>
     <section id="projects">
@@ -318,12 +325,58 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/Ariexx122/videogame-sales-analysis')"
+                onclick="
+                  window.open(
+                    'https://github.com/Ariexx122/videogame-sales-analysis',
+                  )
+                "
               >
                 GitHub
               </button>
             </div>
           </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/churn-project.png"
+                alt="Telecom Churn Prediction"
+                class="project-img"
+                onclick="window.location.href = 'telecom-churn.html'"
+              />
+            </div>
+            <h2 class="experience-sub-title-project-title title2">
+              Telecom Churn Prediction
+            </h2>
+            <div class="description-project description2-project">
+              Developed a full-stack machine learning API to provide on-demand
+              risk assessments for customer churn, enabling proactive retention
+              strategies.
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  window.open(
+                    'https://github.com/Ariexx122/telecom-churn-prediction',
+                  )
+                "
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  window.open(
+                    'https://ariexx122.github.io/telecom-churn-prediction/',
+                  )
+                "
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -345,13 +398,19 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/Ariexx122/car-recommender-app')"
+                onclick="
+                  window.open(
+                    'https://github.com/Ariexx122/car-recommender-app',
+                  )
+                "
               >
                 GitHub
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://sprint-7-project-tw64.onrender.com')"
+                onclick="
+                  window.open('https://sprint-7-project-tw64.onrender.com')
+                "
               >
                 Live Demo
               </button>
@@ -363,7 +422,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href = './#contact'"
       />
     </section>
     <section id="contact">
