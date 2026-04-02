@@ -301,119 +301,158 @@
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/graph.png"
-                alt="Project 1"
-                class="project-img project1-img"
-                onclick="window.open('./videogame-analysis.html')"
-                style="cursor: pointer"
-              />
+      <div class="projects-wrapper">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container-projects color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/graph.png"
+                  alt="Project 1"
+                  class="project-img project1-img"
+                  onclick="window.open('./videogame-analysis.html')"
+                  style="cursor: pointer"
+                />
+              </div>
+              <h2 class="experience-sub-title-project-title">
+                Videogame Sales Analysis
+              </h2>
+              <div class="description-project">
+                Analyzed global sales data to identify market trends and
+                platform longevity, using Python and Matplotlib to forecast
+                which game genres drive the highest ROI (click on the image for
+                more information).
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open(
+                      'https://github.com/Ariexx122/videogame-sales-analysis',
+                    )
+                  "
+                >
+                  GitHub
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title-project-title">
-              Videogame Sales Analysis
-            </h2>
-            <div class="description-project">
-              Analyzed global sales data to identify market trends and platform
-              longevity, using Python and Matplotlib to forecast which game
-              genres drive the highest ROI (click on the image for more
-              information).
-            </div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="
-                  window.open(
-                    'https://github.com/Ariexx122/videogame-sales-analysis',
-                  )
-                "
-              >
-                GitHub
-              </button>
-            </div>
-          </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/churn-project.png"
-                alt="Telecom Churn Prediction"
-                class="project-img"
-                onclick="window.location.href = 'telecom-churn.html'"
-              />
+            <div class="color-container details-container-projects">
+              <div class="article-container">
+                <img
+                  src="./assets/churn-project.png"
+                  alt="Telecom Churn Prediction"
+                  class="project-img"
+                  onclick="window.location.href = 'telecom-churn.html'"
+                />
+              </div>
+              <h2 class="experience-sub-title-project-title title2">
+                Telecom Churn Prediction
+              </h2>
+              <div class="description-project description2-project">
+                Developed a full-stack machine learning API to provide on-demand
+                risk assessments for customer churn, enabling proactive
+                retention strategies.
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open(
+                      'https://github.com/Ariexx122/telecom-churn-prediction',
+                    )
+                  "
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open(
+                      'https://ariexx122.github.io/telecom-churn-prediction/',
+                    )
+                  "
+                >
+                  Live Demo
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title-project-title title2">
-              Telecom Churn Prediction
-            </h2>
-            <div class="description-project description2-project">
-              Developed a full-stack machine learning API to provide on-demand
-              risk assessments for customer churn, enabling proactive retention
-              strategies.
-            </div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="
-                  window.open(
-                    'https://github.com/Ariexx122/telecom-churn-prediction',
-                  )
-                "
-              >
-                GitHub
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="
-                  window.open(
-                    'https://ariexx122.github.io/telecom-churn-prediction/',
-                  )
-                "
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/recomender.png"
-                alt="Project 2"
-                class="project-img"
-                onclick="window.open('./car-recommender.html')"
-                style="cursor: pointer"
-              />
+            <div class="color-container details-container-projects">
+              <div class="article-container">
+                <img
+                  src="./assets/age-prediction.png"
+                  alt="Age Prediction"
+                  class="project-img"
+                  onclick="window.location.href = 'age-prediction.html'"
+                />
+              </div>
+              <h2 class="experience-sub-title-project-title title2">
+                Facial Age Estimator
+              </h2>
+              <div class="description-project description2-project">
+                Fine-tuned a ResNet50 model to estimate age from facial images,
+                helping retailers automatically verify legal drinking age at
+                checkout, achieving a 49% error reduction over baseline.
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open('https://github.com/Ariexx122/age-prediction')
+                  "
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open('https://ariexx122.github.io/age-prediction/')
+                  "
+                >
+                  Live Demo
+                </button>
+              </div>
             </div>
-            <h2 class="experience-sub-title-project-title title2">
-              Smart Car Recommender
-            </h2>
-            <div class="description-project description2-project">
-              Built an interactive recommendation engine that matches users with
-              their ideal vehicle based on budget, features, and performance
-              metrics (click on the image for more information).
-            </div>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="
-                  window.open(
-                    'https://github.com/Ariexx122/car-recommender-app',
-                  )
-                "
-              >
-                GitHub
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="
-                  window.open('https://sprint-7-project-tw64.onrender.com')
-                "
-              >
-                Live Demo
-              </button>
+
+            <div class="color-container details-container-projects">
+              <div class="article-container">
+                <img
+                  src="./assets/recomender.png"
+                  alt="Project 2"
+                  class="project-img"
+                  onclick="window.open('./car-recommender.html')"
+                  style="cursor: pointer"
+                />
+              </div>
+              <h2 class="experience-sub-title-project-title title2">
+                Smart Car Recommender
+              </h2>
+              <div class="description-project description2-project">
+                Built an interactive recommendation engine that matches users
+                with their ideal vehicle based on budget, features, and
+                performance metrics (click on the image for more information).
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open(
+                      'https://github.com/Ariexx122/car-recommender-app',
+                    )
+                  "
+                >
+                  GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="
+                    window.open('https://sprint-7-project-tw64.onrender.com')
+                  "
+                >
+                  Live Demo
+                </button>
+              </div>
             </div>
           </div>
         </div>
