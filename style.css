@@ -379,6 +379,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 100%;
+  height: 100%;
   aspect-ratio: 16/10;
   object-fit: cover;
   display: block;
@@ -484,7 +485,7 @@ footer p {
   flex: 0 0 auto;
   padding: 1.5rem;
   width: 25%;
-  height: 520px;
+  height: 550ps;
   background: rgb(250, 250, 250);
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.01rem solid;
