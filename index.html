@@ -56,9 +56,9 @@
           </button>
           <button
             class="btn btn-color-1"
-            onclick="location.href = './#contact'"
+            onclick="location.href = './#projects'"
           >
-            Contact Me
+            My Projects
           </button>
         </div>
         <div id="socials-container">
@@ -304,35 +304,40 @@
       <div class="projects-wrapper">
         <div class="experience-details-container">
           <div class="about-containers">
-            <div class="details-container-projects color-container">
+            <div class="color-container details-container-projects">
               <div class="article-container">
                 <img
-                  src="./assets/graph.png"
-                  alt="Project 1"
-                  class="project-img project1-img"
-                  onclick="window.open('./videogame-analysis.html')"
-                  style="cursor: pointer"
+                  src="./assets/sentiment-prediction.png"
+                  alt="Sentiment Prediction"
+                  class="project-img"
+                  onclick="window.location.href = 'sentiment-prediction.html'"
                 />
               </div>
-              <h2 class="experience-sub-title-project-title">
-                Videogame Sales Analysis
+              <h2 class="experience-sub-title-project-title title2">
+                Cloud-Native Sentiment Analysis
               </h2>
-              <div class="description-project">
-                Analyzed global sales data to identify market trends and
-                platform longevity, using Python and Matplotlib to forecast
-                which game genres drive the highest ROI (click on the image for
-                more information).
+              <div class="description-project description2-project">
+                Full-stack NLP API deployed via Docker on Azure. Built with
+                FastAPI to classify movie reviews in real-time. Demonstrates
+                end-to-end MLOps, from training Logistic Regression and BERT
+                models to cloud-based production.
               </div>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
                   onclick="
                     window.open(
-                      'https://github.com/Ariexx122/videogame-sales-analysis',
+                      'https://github.com/Ariexx122/sentiment-prediction',
                     )
                   "
                 >
                   GitHub
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://sentimentpredict.netlify.app/')"
+                >
+                  Live Demo
                 </button>
               </div>
             </div>
