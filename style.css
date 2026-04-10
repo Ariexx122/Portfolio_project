@@ -582,5 +582,5 @@ button:active {
 
 .color-container:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 30px #2563eb;
+  box-shadow: 0 12px 30px #000000;
 }
