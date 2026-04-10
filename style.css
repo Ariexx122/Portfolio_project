@@ -23,7 +23,7 @@ p {
 
 a,
 button {
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 
 /* DESKTOP NAV */
@@ -52,11 +52,11 @@ a {
 }
 
 a:hover {
-  color: rgb(100, 100, 100);
+  color: #2563eb;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-thickness: 2px;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #2563eb;
 }
 
 .logo {
@@ -241,7 +241,7 @@ section {
 }
 
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #2563eb;
   color: white;
 }
 
@@ -553,12 +553,36 @@ footer p {
 }
 
 .btn-color-1 {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: #4b7ce7;
+  border-color: #4b7ce7;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: #1d4ed8;
-  border-color: #1d4ed8;
+  background: #2563eb;
+  border-color: #2563eb;
+  transform: scale(0.95);
+}
+
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(98%) saturate(749%)
+    hue-rotate(202deg) brightness(95%) contrast(95%);
+  transform: scale(106%);
+  transition: all 0.1s ease;
+}
+
+a:active,
+button:active {
+  transform: scale(0.95);
+}
+
+.color-container {
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.3s ease;
+}
+
+.color-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
