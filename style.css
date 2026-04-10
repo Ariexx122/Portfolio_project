@@ -584,3 +584,11 @@ button:active {
   transform: translateY(-8px);
   box-shadow: 0 12px 20px #80a8ff;
 }
+
+.icon-linkedin {
+  height: 3rem;
+}
+
+.icon-github {
+  height: 3rem;
+}
