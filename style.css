@@ -404,7 +404,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -598,4 +598,8 @@ button:active {
 
 .arrow {
   display: none;
+}
+
+.copyright {
+  margin-top: 20px;
 }

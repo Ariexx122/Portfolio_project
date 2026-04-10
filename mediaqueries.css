@@ -1,6 +1,3 @@
-/* REPLACE EVERYTHING IN mediaqueries.css WITH THIS */
-
-/* For Tablets and Small Desktops */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -63,5 +60,16 @@
 
   .title {
     font-size: 2rem;
+  }
+
+  #contact {
+    height: auto;
+    min-height: unset;
+    padding-bottom: 3rem;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
   }
 }
